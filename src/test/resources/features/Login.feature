@@ -17,7 +17,7 @@ Feature: As a user, I want to enter my email and my password to authenticate
 	   Examples:
 		|mail|password|message|
 		|anis.fatnassi.c@gmail.com|687fegrzef|Échec d'authentification|
-		|anis.fatnassi89556qs@gmail.com|06061993|Échec d'authentificationFF|
+		|anis.fatnassi89556qs@gmail.com|06061993|Échec d'authentification|
 
   @SMOKE_TEST
   Scenario: Connect with email and password correct
