@@ -14,8 +14,7 @@ public class LocalisationXPath {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("file://"+ System.getProperty("user.dir") +"/src/main/resources/applications/interaction.html");
-		WebElement titreElement = driver.findElement(By.xpath);
-		System.out.println(titreElement.getText());
+
 	}
 
 }
